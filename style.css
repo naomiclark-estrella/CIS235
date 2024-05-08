@@ -1,11 +1,11 @@
 @font-face {
   font-family: Barbra;
-  src: url(/fonts/Barbra-Regular.woff);
+  src: url(./fonts/Barbra-Regular.woff);
 }
 
 @font-face {
   font-family: OpenSauce;
-  src: url(/fonts/OpenSauce.woff);
+  src: url(./fonts/OpenSauce.woff);
 }
 
 * {
