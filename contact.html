@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <a href="/">
+                <img src="/images/logo.png" alt="Retro realm with rainbow behind it" width="75px" height="75px">
+            </a>
+            <a href="/">Home</a>
+            <a href="/products.html">Products</a>
+            <a href="/about_us.html">About Us</a>
+            <a href="/contact.html" style="text-decoration: underline;">Contact</a>
+        </nav>
+        <div class="container">
+
+            <h1>For Queries</h1>
+            <form action="/contact.html">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="usa">United States</option>
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+
+        <footer>
+            <div id="links">
+                <a href="/">Home</a>
+                &#x2022;
+                <a href="/products.html">Products</a>
+                &#x2022;
+                <a href="/about_us.html">About Us</a>
+                &#x2022;
+                <a href="/contact.html">Contact</a>
+            </div>
+
+            <div id="social">
+                <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/" class="fa fa-twitter"></a>
+                <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                <a href="tumblr" class="fa fa-tumblr"></a>
+            </div>
+            <p>&copy; Retro Realm 2024</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
